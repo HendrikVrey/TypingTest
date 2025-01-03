@@ -141,6 +141,7 @@ class TypingTest
         Console.WriteLine($"Your Words Per Minute (WPM) is: {wpm}");
 
         //Prompt user to press any key to exit
+        Thread.Sleep(5000);
         Console.WriteLine("\nPress any key to exit...");
         Console.ReadKey(true);
     }
